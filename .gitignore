@@ -11,17 +11,6 @@ env/
 pdf_detector_yolo/
 pdf_detector_ppyoloe/
 
-# PyTorch / Paddle weights
-weights/
-*.pt
-*.pdparams
-
-# Outputs
-outputs/
-*.pdf
-*.jpg
-*.png
-*.json
 
 # System files
 .DS_Store
