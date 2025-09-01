@@ -28,7 +28,7 @@ The primary objectives of Stage 1 are:
 
 | Component | Purpose |
 |-----------|---------|
-| **Python 3.10** | Main programming language. |
+| **Python 3.9** | Main programming language. |
 | **YOLOv8s (pre-trained)** | Lightweight object detection model for layout entity detection. |
 | **PyMuPDF (fitz)** | Manipulating PDFs and drawing bounding boxes. |
 | **PIL / Pillow** | Image processing (PDF to image conversion). |
@@ -55,8 +55,6 @@ doclaynet-yolo/
 ├── requirements.txt # Python dependencies
 └── README.md
 
-yaml
-Copy code
 
 ---
 
@@ -64,31 +62,29 @@ Copy code
 
 1. **Clone the repository**
 
-```bash
 git clone https://github.com/yourusername/pdf_detector_yolo.git
 cd pdf_detector_yolo
 Create and activate the Conda environment
 
-bash
-Copy code
+
+
 conda create -n pdf_detector_yolo python=3.10 -y
 conda activate pdf_detector_yolo
 pip install -r requirements.txt
 Verify GPU/CPU availability
 
-bash
-Copy code
+
 python scripts/gpu_check.py
 🚀 Usage
 Place PDFs in the folder:
 
-bash
-Copy code
+
+
 data/my_pdfs/
 Run inference:
 
-bash
-Copy code
+
+
 python -m scripts.infer
 Check outputs:
 
@@ -121,5 +117,4 @@ DocLayNet Dataset
 
 PyMuPDF Documentation
 
-yaml
-Copy code
+
