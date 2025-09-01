@@ -69,7 +69,7 @@ cd pdf_detector_yolo
 
 2. **Create and activate the Conda environment**
 ```bash
-conda create -n pdf_detector_yolo python=3.10 -y
+conda create -n pdf_detector_yolo python=3.9 -y
 conda activate pdf_detector_yolo
 pip install -r requirements.txt
 ```
